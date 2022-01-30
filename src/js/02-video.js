@@ -12,8 +12,7 @@ player.on(
 );
 
 player.setCurrentTime(localStorage.getItem('videoplayer-current-time')).catch(function (error) {
-    switch (error.name) {
+    switch (error) {
         default:
-            break;
     }
 });
